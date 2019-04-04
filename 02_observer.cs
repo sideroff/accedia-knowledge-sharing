@@ -90,3 +90,5 @@ IObserver graphicTemperatureDisplay = new GraphicTemperatureDisplay(weatherStati
 
 weatherStation.add(consoleTemperatureDisplay);
 weatherStation.add(graphicTemperatureDisplay);
+
+weatherStation.Temperature = 123

@@ -8,7 +8,7 @@ class Api : IApi {
     }
 }
 
-class OldApi: IApi {
+class OldApi {
     public XmlDocument specificRequest(XmlDocument params) {
         return new XmlDocument("<Response>2</Response>");
     }
