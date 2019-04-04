@@ -8,7 +8,6 @@ const prefetchedResources = ['/', '/src/index.js', '/src/index.css']
 // After the install step, the browser tries to activate the service worker.
 // Generally, we cache static resources that allow the website to run offline
 self.addEventListener('install', event => {
-  debugger;
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
